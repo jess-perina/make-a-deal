@@ -1,0 +1,13 @@
+.winContainer {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.banner {
+  height: 10vh;
+  padding-top: 10vh;
+  padding-bottom: 20vh;
+}
