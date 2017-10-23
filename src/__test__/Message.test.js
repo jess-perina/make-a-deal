@@ -6,7 +6,7 @@ import Message from '../Message';
 Enzyme.configure({ adapter: new Adapter() });
 
 describe("Message", () => {
-  let props = {};
+  let props;
   let mountedMessage;
   const message = () => {
     if (!mountedMessage) {
@@ -18,6 +18,9 @@ describe("Message", () => {
   }
 
   beforeEach(() => {
+    props = {
+      text: undefined
+    }
     mountedMessage = undefined;
   });
   
