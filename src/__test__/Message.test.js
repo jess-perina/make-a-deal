@@ -35,8 +35,7 @@ describe("Message", () => {
     })
 
     it('includes the correct text', () => {
-      const div = message().find('div').first();
-      expect(div.props().children).toEqual('a test message');
+      expect(message().props().text).toBe(props.text);
     })
   })
 });
