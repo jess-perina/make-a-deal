@@ -14,7 +14,7 @@ const Win = () => {
 
 
       <div className="video">
-        <iframe title="win_video" width="560" height="315" src={url} frameborder="0" allowfullscreen></iframe>
+        <iframe title="win_video" width="560" height="315" src={url} frameBorder="0" allowFullScreen></iframe>
       </div>
       <p>You just won. You want to <Link to="/">play again</Link>?</p>   
     </div>
