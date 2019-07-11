@@ -10,7 +10,7 @@
   "devDependencies": {
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
-    "react-scripts": "1.0.14"
+    "react-scripts": "2.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
